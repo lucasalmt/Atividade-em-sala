@@ -134,3 +134,36 @@ a {
     background-color: #25282B;
     color: #fff;
 }
+
+.projetos {
+    width: 992px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 50px;
+}
+
+.projetos_pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1206px;
+    gap: 114px;
+}
+
+.projetos_albuns p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #828282;
+}
+ .imagem_projetos {
+    width: 496px;
+    height: 526px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 30%;
+    background-image: url(img/albuns_certa-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ }
