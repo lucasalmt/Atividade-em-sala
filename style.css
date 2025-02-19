@@ -136,9 +136,9 @@ a {
 }
 
 .projetos {
-    width: 992px;
-    display:flex;
-    justify-content:center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 50px;
 }
@@ -157,10 +157,22 @@ a {
     font-family: "Nunito", serif;
     color: #828282;
 }
+
+.projetos_albuns h1{
+    display: flex;
+    justify-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #25282B;
+    align-items: center;
+    gap: 80px;
+}
+
 .imagem_projetos {
     width: 496px;
     height: 526px;
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(0, 0, 0);
     border-radius: 30%;
     background-image: url(img/albuns_certa-removebg-preview.png);
     background-repeat: no-repeat;
