@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0%;
@@ -27,20 +30,107 @@ a {
     gap: 48px;
 }
 
-.cabecalho h1 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #25282B;
-}
-
 .cabecalho_listas li a {
     font-weight: 500;
-    size: 18px;
+    font-size: 18px;
     color: black;
 }
+
+.cabecalho_listas li a:hover {
+    text-decoration: underline;
+    transition: 0.1s;
+    
+}
+
 .cabecalho h1 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 32px;
     font-family: "Comfortaa", serif;
 }
 
+.about-me {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sobremim_pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1206px;
+    gap: 114px;
+}
+
+
+.circulo {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    background-image: url(img/foto\ certa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.sobremim_info {
+    width: 486px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.sobremim_info h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #25282B;
+
+}
+
+.sobremim_info p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #828282;
+}
+
+.sobremim_botoes {
+    display: flex;
+    gap: 12px;
+}
+
+.sobremim_btn {
+    border: none;
+    background-color: #2C2B2C;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    padding: 8px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sobremim_btn:hover {
+    background-color: #fff;
+    color: #25282B;
+    border: 1px solid #25282B;
+    transition: 0.1s;
+}
+
+.sobremim_botoes2 {
+    background-color: #fff; 
+    color: #2C2B2C;
+    border: 1px solid #2C2B2C;
+}
+
+.sobremim_botoes2:hover {
+    background-color: #25282B;
+    color: #fff;
+}
