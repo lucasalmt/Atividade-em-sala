@@ -1,113 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
 li {
-    list-style: none; /*zerar estilos de uma lista*/
+  list-style: none; /*zerar estilos de uma lista*/
 }
 
 a {
-    text-decoration: none; /*tirar efeitos de um texto*/
+  text-decoration: none; /*tirar efeitos de um texto*/
 }
 
 .cabecalho {
-    width: 100%; /*largura*/
-    height: 56px;/*altura*/
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+  width: 100%; /*largura*/
+  height: 56px; /*altura*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cabecalho_listas {
-    display:flex ;
-    gap: 48px;
+  display: flex;
+  gap: 48px;
 }
 
 .cabecalho_listas li a {
-    font-weight: 500;
-    font-size: 18px;
-    color: black;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
 }
 
 .cabecalho_listas li a:hover {
-    text-decoration: underline;
-    transition: 0.1s;
-    
+  text-decoration: underline;
+  transition: 0.1s;
 }
 
 .cabecalho h1 {
-    font-weight: 700;
-    font-size: 32px;
-    font-family: "Comfortaa", serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Comfortaa", serif;
 }
 
 .about-me {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .sobremim_pai {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1206px;
-    gap: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1206px;
+  gap: 114px;
 }
-
 
 .circulo {
-    width: 450px;
-    height: 450px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 100%;
-    background-image: url(img/foto\ certa.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  width: 450px;
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100%;
+  background-image: url(img/foto\ certa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
-
 .sobremim_info {
-    width: 486px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .sobremim_info h1 {
-    font-size: 64px;
-    font-weight: 700;
-    font-family: "Playfair Display", serif;
-    color: #25282B;
-
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #25282b;
 }
 
 .sobremim_info p {
-    font-size: 24px;
-    font-weight: 400;
-    font-family: "Nunito", serif;
-    color: #828282;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  color: #828282;
 }
 
 .sobremim_botoes {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 16px;
 }
 
 .sobremim_btn {
+  border: none;
+  background-color: #2c2b2c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", serif;
+  padding: 8px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sobremim_btn:hover {
+  background-color: #fff;
+  color: #25282b;
+  border: 1px solid #25282b;
+  transition: 0.1s;
+}
+
+.sobremim_botoes2 {
+  background-color: #fff;
+  color: #2c2b2c;
+  border: 1px solid #2c2b2c;
+}
+
+.sobremim_botoes2:hover {
+  background-color: #25282b;
+  color: #fff;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 80px; /* Espaçamento entre os elementos */
+}
+
+.projetos p {
+    font-weight: 700;
+    width: 700px;
+    height: 72px;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    color: #25282B;
+}
+
+.projetos_pai {
+  width: 992px;
+  height: 1, 892px;
+  top: 773px;
+  left: 222px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1206px;
+  gap: 80px;
+}
+
+.projetos_albuns {
+  width: 496px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projetos_albuns h1 {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #25282b;
+}
+
+.projetos_albuns p {
+  width: 496px;
+  height: 524;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  color: #828282;
+}
+
+.imagem_projetos {
+  width: 496px;
+  height: 526px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(img/trevo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.projetos_botao {
+  display: flex;
+  gap: 16px;
+}
+.projeto_btn {
     border: none;
-    background-color: #2C2B2C;
+    background-color: #2c2b2c;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -116,67 +207,3 @@ a {
     border-radius: 8px;
     cursor: pointer;
 }
-
-.sobremim_btn:hover {
-    background-color: #fff;
-    color: #25282B;
-    border: 1px solid #25282B;
-    transition: 0.1s;
-}
-
-.sobremim_botoes2 {
-    background-color: #fff; 
-    color: #2C2B2C;
-    border: 1px solid #2C2B2C;
-}
-
-.sobremim_botoes2:hover {
-    background-color: #25282B;
-    color: #fff;
-}
-
-.projetos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-
-.projetos_pai {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1206px;
-    gap: 114px;
-}
-
-.projetos_albuns p {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: "Nunito", serif;
-    color: #828282;
-}
-
-.projetos_albuns h1{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    font-size: 48px;
-    font-weight: 700;
-    font-family: "Playfair Display", serif;
-    color: #25282B;
-}
-
-.imagem_projetos {
-    width: 396px;
-    height: 426px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 30%;
-    background-image: url(img/albuns_certa-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
- }
