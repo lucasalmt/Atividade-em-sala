@@ -8,6 +8,11 @@
   margin: 0%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 li {
   list-style: none; /*zerar estilos de uma lista*/
 }
@@ -141,35 +146,31 @@ a {
 
 .projetos h1 {
   font-weight: 700;
-  width: 700px;
-  height: 76,8px;
   font-size: 64px;
   font-family: "Playfair Display", serif;
   color: #25282b;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-decoration: underline;
+  display: inline;
+  border-bottom: 2px solid #25282b;
 }
 
 .projetos_pai {
-  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-    border-radius: 24%;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+
 }
 
-.projetos_albuns h1 {
+.projetos_albuns h2 {
   font-size: 40px;
   font-weight: 700;
   height: 60px;
+  text-align: start;
   font-family: "Playfair Display", serif;
   color: #25282b;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 
@@ -179,6 +180,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  border-radius: 24px 0 0 24px;
+  padding: 24px;
 }
 
 .projetos_albuns p {
@@ -192,13 +195,14 @@ a {
 
 .imagem_projetos {
   width: 496px;
-  height: 526px;
-  border-radius: 24px;
+  height: 524px;
+  padding: 24px;
+  border-radius: 0px 24px 24px 0;
   background-color: rgb(0, 0, 0);
   background-image: url(img/trevo.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .projetos_botao {
