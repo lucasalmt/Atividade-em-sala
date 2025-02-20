@@ -204,19 +204,3 @@ a {
   background-position: center;
   background-size: cover;
 }
-
-.projetos_botao {
-  display: flex;
-  gap: 16px;
-}
-.projeto_btn {
-  border: none;
-  background-color: #2c2b2c;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  font-family: "Roboto", serif;
-  padding: 8px 24px;
-  border-radius: 8px;
-  cursor: pointer;
-}
