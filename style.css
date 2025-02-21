@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #F0F2F5 ;
 }
 
 
@@ -142,6 +143,7 @@ a {
   align-items: center; /* Centraliza horizontalmente */
   justify-content: center; /* Centraliza verticalmente */
   gap: 80px; /* Espaçamento entre os elementos */
+  margin-bottom: 80px
 }
 
 .projetos h1 {
@@ -173,7 +175,6 @@ a {
 
 }
 
-
 .projetos_albuns {
   width: 496px;
   height: 524px;
@@ -203,4 +204,61 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.projetos2 {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 80px; /* Espaçamento entre os elementos */
+}
+
+.projetos_pai2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+
+.imagem_projetos2 {
+  width: 496px;
+  height: 524px;
+  padding: 24px;
+  border-radius: 24px 0 0 24px;
+  background-color: rgb(0, 0, 0);
+  background-image: url(img/cactus2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.projetos2txt{
+  width: 496px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 24px 0 0 24px;
+  padding: 24px;
+}
+
+.projetos2txt h2{
+  font-size: 40px;
+  font-weight: 700;
+  height: 60px;
+  text-align: start;
+  font-family: "Playfair Display", serif;
+  color: #25282b;
+  text-decoration: none;
+}
+
+.projetos2txt p{
+  width: 496px;
+  height: 524;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  color: #828282;
 }
