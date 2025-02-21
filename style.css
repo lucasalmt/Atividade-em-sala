@@ -262,3 +262,59 @@ a {
   font-family: "Nunito", serif;
   color: #828282;
 }
+.projetos3 {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  color: #25282b;
+  display: inline;
+  border-bottom: 2px solid #25282b;
+}
+
+.projetos_pai3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+
+.projetos_colabs {
+  width: 496px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 24px 0 0 24px;
+  padding: 24px;
+}
+
+.projetos_colabs h2 {
+  font-size: 40px;
+  font-weight: 700;
+  height: 60px;
+  text-align: start;
+  font-family: "Playfair Display", serif;
+  color: #25282b;
+  text-decoration: none;
+}
+.projetos_colabs p {
+  width: 496px;
+  height: 524;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+  color: #828282;
+}
+
+.imagem_projetos3 {
+  width: 496px;
+  height: 524px;
+  padding: 24px;
+  border-radius: 0px 24px 24px 0;
+  background-color: rgb(0, 0, 0);
+  background-image: url(img/trevo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
