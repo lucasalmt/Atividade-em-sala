@@ -220,6 +220,7 @@ a {
   justify-content: center;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 24px;
+  margin-bottom: 80px
 }
 
 .imagem_projetos2 {
@@ -263,12 +264,12 @@ a {
   color: #828282;
 }
 .projetos3 {
-  font-weight: 700;
-  font-size: 64px;
-  font-family: "Playfair Display", serif;
-  color: #25282b;
-  display: inline;
-  border-bottom: 2px solid #25282b;
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 80px; /* Espaçamento entre os elementos */
+  margin-bottom: 80px
 }
 
 .projetos_pai3 {
