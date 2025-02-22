@@ -10,7 +10,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #F0F2F5 ;
+  background-color: #F5F3EF ;
 }
 
 
@@ -77,6 +77,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+
 }
 
 .sobremim_info {
