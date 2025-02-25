@@ -321,3 +321,38 @@ a {
   background-position: center;
   background-size:cover;
 }
+
+.contato {
+  display: flex;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  gap: 80px; /* Espaçamento entre os elementos */
+  margin-bottom: 80px
+}
+.contato h1 {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  color: #25282b;
+  display: inline;
+  border-bottom: 2px solid #25282b;
+}
+
+.contato_pai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  flex-direction: column;
+}
+
+.contato_pai input {
+  width: 100%; /* Faz os inputs ocuparem toda a largura do container */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block; /* Garante que fiquem em linhas separadas */
+  margin: 10px 0; /* Espaço entre os inputs */
+}
