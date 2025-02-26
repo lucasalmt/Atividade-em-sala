@@ -60,6 +60,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 50px;
+  margin-bottom: 42px;
 }
 
 .sobremim_pai {
@@ -359,6 +360,7 @@ a {
 
 .contato_pai .sobremim_btn {
   align-self: end;
+  margin-bottom: 56px;
 }
 
 .contato_pai input {
@@ -383,10 +385,24 @@ a {
 .mensagem {
   display: flex;
   flex-direction: column;
-
 }
 
 .mensagem input {
   width: 400px;
   height: 160px;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 192px;
+  height: 48px;
+}
+
+.icones i {
+  width: 48px;
+  height: 48px;
+  text-decoration: none;
+  color: #25282b;
 }
