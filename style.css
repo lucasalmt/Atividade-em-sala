@@ -71,8 +71,8 @@ a {
 }
 
 .circulo {
-  width: 550px;
-  height: 550px;
+  width: 600px;
+  height: 600px;
   background-color: rgb(0, 0, 0);
   border-radius: 100%;
   background-image: url(img/foto\ certa.png);
@@ -153,7 +153,7 @@ a {
 
 .projetos h1 {
   font-weight: 700;
-  font-size: 64px;
+  font-size: 48px;
   font-family: "Playfair Display", serif;
   color: #25282b;
   display: inline;
@@ -279,7 +279,7 @@ a {
   align-items: center; /* Centraliza horizontalmente */
   justify-content: center; /* Centraliza verticalmente */
   gap: 80px; /* Espaçamento entre os elementos */
-  margin-bottom: 80px
+  margin-bottom: 144px
 }
 
 .projetos_pai3 {
@@ -371,6 +371,14 @@ a {
   margin: 10px 0; 
   border-style: none;
 }
+
+.contato_pai label {
+  display: block; /* Faz a label ocupar toda a largura */
+  text-align: left; /* Alinha o texto da label à esquerda */
+  width: 100%; /* Mantém a largura total para alinhamento correto */
+  margin-bottom: 5px; /* Dá um espaçamento entre label e input */
+}
+
 
 .mensagem {
   display: flex;
