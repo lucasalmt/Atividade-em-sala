@@ -8,10 +8,3 @@ Este projeto foi desenvolvido como parte de uma atividade da faculdade **(Análi
 - **FontAwesome** - Ícones para redes sociais  
 - **Figma** - Referência para o design  
 
-## 📷 Captura de Tela  
-![Screenshot do Projeto](link_da_imagem)  
-
-## 🔧 Como Rodar o Projeto  
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/portfolio-travis.git
