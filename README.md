@@ -1,4 +1,4 @@
-https://lucasalmt.github.io/Atividade-em-sala/
+https://atividade-em-sala-ten.vercel.app/ (hospedado no vercel pois no github estava quebrando o script.)
 
 #  Portfólio - Travis Scott  
 
