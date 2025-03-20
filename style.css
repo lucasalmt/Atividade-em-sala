@@ -428,3 +428,20 @@ width: 100%;
 height: 100px;
 background: #2C2B2C;
 }
+
+
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Subir levemente */
+  }
+  100% {
+    transform: translateY(0); /* Voltar à posição original */
+  }
+}
+
+.circulo {
+  animation: upAndDown 2s ease-in-out infinite; /* Animação contínua */
+}
