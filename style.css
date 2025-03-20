@@ -298,6 +298,10 @@ main {
   margin-bottom: 144px
 }
 
+.projetos, .projetos2, .projetos3, .sobremim_info, .sobremim_imagem, .contato{
+  visibility: hidden;
+}
+
 .projetos_pai3 {
   display: flex;
   align-items: center;
