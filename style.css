@@ -18,6 +18,7 @@ html {
 
 body {
   position: relative;
+  overflow-x: hidden;
 }
 
 
@@ -426,11 +427,22 @@ main {
   color: #25282b;
 }
 
+.rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative ;
+  height: auto;
+}
+
 .vector {
-background-image: url(img/Vector.png);
+background-image: url(/img/Vector.png);
 width: 100%;
-height: 100px;
-background: #2C2B2C;
+height: auto;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
 }
 
 
