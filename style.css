@@ -438,11 +438,11 @@ main {
 .vector {
 background-image: url(/img/Vector.png);
 width: 100%;
-height: auto;
+height: 280px;
 background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
+background-position: initial;
+background-repeat: no-repeat
+z-index: 10000000000;
 }
 
 
