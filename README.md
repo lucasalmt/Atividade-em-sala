@@ -1,6 +1,6 @@
 https://atividade-em-sala-ten.vercel.app/ (hospedado no vercel pois no github estava quebrando o script.)
 
-Lucas Aliende Morato
+Lucas Aliende Morato <br>;
 RA: 00115199
 
 #  Portfólio - Travis Scott  
