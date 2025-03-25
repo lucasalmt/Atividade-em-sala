@@ -425,6 +425,8 @@ main {
   justify-content: center;
   width: 192px;
   height: 48px;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .icones i {
@@ -432,6 +434,14 @@ main {
   height: 48px;
   text-decoration: none;
   color: var(--black);
+}
+
+.icones p {
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: "Nunito", serif;
+  color: var(--grey);
 }
 
 .rodape{
